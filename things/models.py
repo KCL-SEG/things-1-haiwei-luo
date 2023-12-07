@@ -12,6 +12,4 @@ class Thing(models.Model):
         blank = False, 
         unique = False,                
     )
-    quantity_name = models.IntegerField(
-                       
-    )
+    quantity = models.IntegerField()
