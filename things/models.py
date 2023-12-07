@@ -6,7 +6,7 @@ class Thing(models.Model):
     name = models.CharField(
         max_length = 30,
         blank = False, 
-        unique = False,                
+        unique = True,                
     )
     description = models.CharField(
         max_length = 120,
